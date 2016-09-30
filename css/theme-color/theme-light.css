@@ -1,0 +1,7 @@
+.Placeholder__avatar,
+.Placeholder__metaInline::before,
+.Placeholder__metaInline::after,
+.Placeholder__inline,
+.Placeholder__img {
+    background-color: #f2f2f2;
+}

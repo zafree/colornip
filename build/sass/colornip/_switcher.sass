@@ -1,0 +1,47 @@
+.Switcher
+    font-family: $family-sans-serif
+    font-size: $size-base
+    line-height: $line-height
+    position: fixed
+    top: 10%
+    right: 0
+    width: 208px
+    margin-right: -208px
+    padding: 20px
+    background-color: $white
+    border: 1px solid rgba(0, 0, 0, .02)
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0)
+    z-index: 9999
+    transition: none $speed*3 $easing
+    transition-property: margin-right, box-shadow
+    &--show
+        margin-right: 0
+        box-shadow: 0 0 15px rgba(0, 0, 0, .05)
+
+    &::before
+        content: ""
+        position: absolute
+        z-index: 9998
+        height: 100%
+        width: 15px
+        left: 0
+        top: 0
+        margin-left: 0
+        background-color: $white
+    &__control
+        cursor: pointer
+        position: absolute
+        height: 50px
+        width: 50px
+        left: 0
+        margin-left: -50px
+        background-color: $white
+        border: 1px solid rgba(0, 0, 0, .02)
+        box-shadow: 0 0 10px rgba(0, 0, 0, .05)
+        border-radius: 3px 0 0 3px
+        padding: 0
+        border-right-color: transparent
+        background-image: url(https://d13yacurqjgara.cloudfront.net/users/729829/screenshots/2340395/colorhunt.gif)
+        background-repeat: no-repeat
+        background-size: 96px 72px
+        background-position: -24px -14px
