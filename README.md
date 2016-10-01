@@ -5,7 +5,9 @@ Colornip is an pukka-easiest color-switcher on planet. Simple, small, fast, pure
 ### Demo
 https://zafree.github.io/colornip
 
-![Colornip Demo](https://d13yacurqjgara.cloudfront.net/users/449253/screenshots/2998048/colornip.gif")
+![Colornip Demo][demo]
+
+[demo]: https://d13yacurqjgara.cloudfront.net/users/449253/screenshots/2998048/colornip.gif
 
 ### How
 
