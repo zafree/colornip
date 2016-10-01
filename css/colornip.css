@@ -76,12 +76,16 @@
     border-right-color: transparent;
     -webkit-border-radius: 3px 0 0 3px;
             border-radius: 3px 0 0 3px;
+    outline: none;
     background-color: #fff;
     background-image: url(https://d13yacurqjgara.cloudfront.net/users/729829/screenshots/2340395/colorhunt.gif);
     background-repeat: no-repeat;
-    background-position: -24px -14px; 
+    background-position: -24px -14px;
     -webkit-background-size: 96px 72px;
             background-size: 96px 72px;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .15);
             box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
 }
